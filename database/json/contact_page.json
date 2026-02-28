@@ -1,0 +1,19 @@
+{
+  "map_location": "dhaka college",
+  "title": "Get in Touch",
+
+  "feature_one_icon": "/assets/frontend/images/icon/icon_88.svg",
+  "feature_two_icon": "/assets/frontend/images/icon/icon_89.svg",
+  "feature_three_icon": "/assets/frontend/images/icon/icon_90.svg",
+
+  "feature_one_title": "We\u2019r always happy to help.",
+  "feature_two_title": "Our hotline number",
+  "feature_three_title": "Live chat",
+
+  "feature_one_description": "ask@example.com",
+  "feature_two_description": "+757 699 4478, +21 377 9731",
+  "feature_three_description": "www.example.com",
+
+  "form_title": "Questions? Feel Free to Reach Out Via Message.",
+  "form_button_text": "Send Message"
+}

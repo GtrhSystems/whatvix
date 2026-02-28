@@ -1,0 +1,110 @@
+{
+  "block_feature_fourteen": {
+    "faqs": [
+      {
+        "question": "Who we are?",
+        "answer": "Our founders Dustin Moskovitz and Justin Rosenstein met while leading Engineering .Tortor porttitor tortor vitae commodo et. Et morbi at felis vestibulum pulvinar libero ut"
+      },
+      {
+        "question": "What\u2019s our goal",
+        "answer": "Our founders Dustin Moskovitz and Justin Rosenstein met while leading Engineering .Tortor porttitor tortor vitae commodo et. Et morbi at felis vestibulum pulvinar libero ut"
+      },
+      {
+        "question": "Our vision",
+        "answer": "Our founders Dustin Moskovitz and Justin Rosenstein met while leading Engineering .Tortor porttitor tortor vitae commodo et. Et morbi at felis vestibulum pulvinar libero ut"
+      }
+    ],
+    "title": "Provided Quality Services from 1998!"
+  },
+  "block_feature_one": {
+    "features": [
+      {
+        "icon": null,
+        "title": "Hyper-realistic AI Voices",
+        "description": "With just 10 seconds of audio, generate lifelike AI voices effortlessly."
+      },
+      {
+        "icon": null,
+        "title": "Rapid AI Voice Cloning",
+        "description": "Create authentic AI voices with a simple 10-second sample."
+      },
+      {
+        "icon": null,
+        "title": "Text-to-Speech",
+        "description": "Control AI voice nuances with your own voice input, ideal for films & games."
+      },
+      {
+        "icon": null,
+        "title": "100+ Multilingual Support",
+        "description": "Switch easily between over 100+ languages using the cloned voice for clarity."
+      }
+    ],
+    "title": "Generative AI voice platform ensuring scale, security."
+  },
+  "feedback_section_one": { "title": "Creator love us" },
+  "blog_section_one": {
+    "title": "Exploring AI's insights & innovations.",
+    "button_text": "Explore All",
+    "blog_ids": "8,9"
+  },
+  "fancy_banner_one": {
+    "title": "Signup now and get started with your 7-day free trial.",
+    "button_text": "Start using for free",
+    "button_link": "/contact-us"
+  },
+  "counter_section_one": {
+    "items": [
+      { "prefix": null, "number": "1.3", "suffix": "mil+", "subtitle": "Happy Clients" },
+      { "prefix": null, "number": "120000", "suffix": "+", "subtitle": "Completed Project" },
+      { "prefix": null, "number": "800", "suffix": "%", "subtitle": "Cheap in the Market" }
+    ]
+  },
+  "app_integration_three": {
+    "title": "Effortless integration, infinite opportunities ahead.",
+    "subtitle": "Connect more than 100+ tools",
+    "button_text": "Start using for free",
+    "button_link": "/contact-us",
+    "logos": [
+      {
+    "color": "#91c400",
+    "icon": "/assets/frontend/images/logo/p_logo_23.png"
+  },
+  {
+    "color": "#9f54ff",
+    "icon": "/assets/frontend/images/logo/p_logo_24.png"
+  },
+  {
+    "color": "#fe65e5",
+    "icon": "/assets/frontend/images/logo/p_logo_25.png"
+  },
+  {
+    "color": "#31d9ec",
+    "icon": "/assets/frontend/images/logo/p_logo_26.png"
+  },
+  {
+    "color": "#fe65ef",
+    "icon": "/assets/frontend/images/logo/p_logo_27.png"
+  },
+  {
+    "color": "#4ee265",
+    "icon": "/assets/frontend/images/logo/p_logo_28.png"
+  },
+  {
+    "color": "#f5dc00",
+    "icon": "/assets/frontend/images/logo/p_logo_29.png"
+  },
+  {
+    "color": "#ff7f54",
+    "icon": "/assets/frontend/images/logo/p_logo_23.png"
+  },
+  {
+    "color": "#24caff",
+    "icon": "/assets/frontend/images/logo/p_logo_24.png"
+  },
+  {
+    "color": "#fe65e5",
+    "icon": "/assets/frontend/images/logo/p_logo_27.png"
+  }
+    ]
+  }
+}

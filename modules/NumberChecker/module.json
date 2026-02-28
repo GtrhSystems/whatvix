@@ -1,0 +1,30 @@
+{
+  "name": "NumberChecker",
+  "description": "",
+  "keywords": [],
+  "priority": 0,
+  "providers": ["Modules\\NumberChecker\\App\\Providers\\NumberCheckerServiceProvider"],
+  "files": [],
+  "version": "1.0",
+  "module_type":"Features",
+  "accessible": true,
+  "menu": [
+    {
+      "id": "m33ox2x2",
+      "heading": "Number Checker",
+      "menu_type": "user",
+      "order": 2,
+      "deletable": false,
+      "module": "number-checker",
+      "links": [
+        {
+          "text": "Number Scanner",
+          "icon": "mdi:queue-first-in-last-out",
+          "href": "/user/number-checker/scanner",
+          "target": "_self",
+          "deletable": false
+        }
+      ]
+    }
+  ]
+}

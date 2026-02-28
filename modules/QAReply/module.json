@@ -1,0 +1,31 @@
+{
+  "name": "QAReply",
+  "alias": "qareply",
+  "description": "",
+  "keywords": [],
+  "module_type": "Features",
+  "priority": 0,
+  "providers": ["Modules\\QAReply\\App\\Providers\\QAReplyServiceProvider"],
+  "files": [],
+  "accessible": true,
+  "version": "1.0",
+  "menu": [
+    {
+      "id": "m3n4o5x2",
+      "heading": "Question Answer (NLP)",
+      "menu_type": "user",
+      "deletable": false,
+      "module": "q-a-reply",
+      "order": 2,
+      "links": [
+        {
+          "text": "QA Reply",
+          "icon": "bx:detail",
+          "href": "/user/qareply/qareplies",
+          "target": "_self",
+          "deletable": false
+        }
+      ]
+    }
+  ]
+}

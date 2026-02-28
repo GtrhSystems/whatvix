@@ -1,0 +1,24 @@
+{
+  "logo": "/assets/frontend/images/logo/logo_03.svg",
+  "deep_logo": "/assets/frontend/images/logo/logo_03.svg",
+  "favicon": "/assets/frontend/images/fav-icon/icon.png",
+  "contact_email": "ruhopicimi@mailinator.com",
+  "contact_phone": "91018734377",
+  "contact_address": "210 Wallent Street, California, Main OC, USA",
+  "footer_text": "Subscribe to our newsletter.",
+  "copyright_text": "@2025 WhatsML. All Right Reserved",
+  "socials": {
+    "facebook": "https://www.facebook.com/amcoder",
+    "youtube": "https://www.youtube.com/@amcoders7114",
+    "twitter": "https://twitter.com",
+    "instagram": "https://www.instagram.com",
+    "linkedin": "https://www.linkedin.com/company/the-devstation"
+  },
+  "fancy_banner_six": {
+    "button_text": "Let\u2019s Get Started",
+    "subtitle": "If you have anything in mind just contact us with our expert.",
+    "title": "Want to Chat {image}? Feel free to Contact our Team.",
+    "title_image": "/assets/frontend/images/icon/icon_51.png",
+    "button_link": "/contact-us"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "WebScraping",
+  "description": "",
+  "keywords": [],
+  "priority": 0,
+  "providers": ["Modules\\WebScraping\\App\\Providers\\WebScrapingServiceProvider"],
+  "accessible": true,
+  "version": "1.0",
+  "module_type":"Features",
+  "files": [],
+  "menu": [
+    {
+      "id": "m3n2x5x2",
+      "heading": "Web Scraping",
+      "menu_type": "user",
+      "order": 2,
+      "deletable": false,
+      "module": "web-scraping",
+      "links": [
+        {
+          "text": "Web Scraping",
+          "icon": "bx:globe",
+          "href": "/user/web-scraping/scrape",
+          "target": "_self",
+          "deletable": false
+        }
+      ]
+    }
+  ]
+}

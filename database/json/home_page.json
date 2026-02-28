@@ -1,0 +1,57 @@
+{
+  "hero_banner": {
+    "key": "hero_banner",
+    "title": "WhatsML, Your AI Chatbot for your daily life",
+    "subtitle": "WhatsML chatbot delivers instant AI responses for 24/7 customer support & satisfaction.",
+    "btn_text": "Try It Now",
+    "feature_item_one": "No Credit Card required",
+    "feature_item_two": "14 Days Free Trial"
+  },
+  "block_feature_seven": {
+    "key": "block_feature_seven",
+    "feature_list": [
+      { "color": "#01F1E1", "title": "30x Faster Chatbot Response Time" },
+      { "color": "#FFC020", "title": "AI Copilots trained on your Data" },
+      { "color": "#FF481F", "title": "24x7 customer support." }
+    ]
+  },
+  "block_feature_eight": {
+    "key": "block_feature_eight",
+    "title": "Help, convert, & sell with a data driven AI chatbot",
+    "subtitle": "Boost sales & conversions with a data-powered AI chatbot solution"
+  },
+  "block_feature_nine": {
+    "key": "block_feature_nine",
+    "card_one_top_title": "FASTEST AI CHATBOT",
+    "card_one_title": "Accurate, fast & source backed responses",
+    "card_one_subtitle": "Business-ready chatbot responses backed by file & webpage sources, designed with anti-hallucination features to prevent irrelevant answers.",
+    "card_two_top_title": "NOTIFICATION",
+    "card_two_title": "Get AI conversation updates Daily.",
+    "card_two_subtitle": "Every day, your AI chatbot reports its key conversation topics and newly acquired leads, ensuring you stay updated and informed on business opportunities.",
+    "card_three_top_title": "QUALITY CONTENT",
+    "card_three_title": "Create Better Content 10x Faster with AI Writer",
+    "card_three_subtitle": "AI Chatting helps you create content like emails and articles in clicks. Say goodbye to writer's block!"
+  },
+  "application_integration_two": {
+    "key": "application_integration_two",
+    "title": "Effortless integration, infinite opportunities ahead.",
+    "subtitle": "Limitless option for you to integration",
+    "center_title": "100+ Application",
+    "center_subtitle": "for integration"
+  },
+  "feedback_section_four": {
+    "key": "feedback_section_four",
+    "counter": "13,0000+",
+    "title": "Customer love our product",
+    "subtitle": "Client satisfaction speaks louder than our words. Hear from them."
+  },
+  "partner_logo": { "key": "partner_logo" },
+  "faq_section_one": { "key": "faq_section_one", "title": "Questions & Answers" },
+  "fancy_banner_three": {
+    "key": "fancy_banner_three",
+    "title": "Get your free { WhatsML. } Free Trial now!",
+    "subtitle": "Try it risk free \u2014 we don\u2019t charge cancellation fees",
+    "button_text": "Let\u2019s Get Started",
+    "button_link": "/contact-us"
+  }
+}

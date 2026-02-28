@@ -1,0 +1,108 @@
+{
+  "name": "Whatsapp",
+  "providers": ["Modules\\Whatsapp\\App\\Providers\\WhatsappServiceProvider"],
+  "description": "",
+  "keywords": [],
+  "priority": 1,
+  "aliases": {},
+  "files": [],
+  "requires": [],
+  "accessible": true,
+  "version": "1.0",
+  "module_type": "platform",
+  "features": {
+    "voice_message": false
+  },
+  "crons": [
+    {
+      "url": "/whatsapp/cron/dispatch-scheduled-campaigns",
+      "title": "Whatsapp Cloud API Dispatch Scheduled Campaigns",
+      "time": "Run Every 1 Minute"
+    }
+  ],
+  "menu": [
+    {
+      "menu_type": "user",
+      "id": "m3n2ss235",
+      "heading": "Whatsapp Module",
+      "order": 2,
+      "deletable": false,
+      "module": "whatsapp",
+      "links": [
+        {
+          "id": "m2n3g11cfa",
+          "icon": "streamline:dashboard-circle",
+          "text": "Overview",
+          "href": "/user/whatsapp/overview",
+          "target": "_self",
+          "deletable": false
+        },
+        {
+          "id": "m3n2g11cfa",
+          "text": "Chats",
+          "icon": "bx:conversation",
+          "href": "/user/whatsapp/platforms",
+          "target": "_self",
+          "deletable": false
+        },
+        {
+          "id": "m6n2g11cfa",
+          "text": "Campaigns",
+          "icon": "humbleicons:chats",
+          "href": "/user/whatsapp/campaigns",
+          "target": "_self",
+          "deletable": false
+        },
+        {
+          "id": "m7n2g11cfa",
+          "text": "Templates",
+          "icon": "bx:layer",
+          "href": "/user/whatsapp/templates",
+          "target": "_self",
+          "deletable": false
+        },
+        {
+          "id": "m8n2g11cfa",
+          "text": "Quick Replies",
+          "icon": "bx:message-dots",
+          "href": "/user/whatsapp/quick-replies",
+          "target": "_self",
+          "deletable": false
+        },
+        {
+          "id": "m9n2g11cfa",
+          "text": "Auto Replies",
+          "icon": "bx:message-square-detail",
+          "href": "/user/whatsapp/auto-replies",
+          "exact": true,
+          "target": "_self",
+          "deletable": false
+        },
+        {
+          "id": "m11n2g11cfa",
+          "text": "Customers",
+          "icon": "bx:user-circle",
+          "href": "/user/whatsapp/customers",
+          "target": "_self",
+          "deletable": false
+        },
+        {
+          "id": "m12n2g11cfa",
+          "text": "Groups",
+          "icon": "bx:group",
+          "href": "/user/whatsapp/groups",
+          "target": "_self",
+          "deletable": false
+        },
+        {
+          "id": "m5n2g11cfa",
+          "text": "My Apps",
+          "icon": "bx:bxl-codepen",
+          "href": "/user/whatsapp/apps",
+          "target": "_self",
+          "deletable": false
+        }
+      ]
+    }
+  ]
+}

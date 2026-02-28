@@ -1,0 +1,349 @@
+[
+    {
+        "id": "m3n4o52ks",
+        "heading": "Dashboard",
+        "order": 1,
+        "deletable": false,
+        "module": "user",
+        "links": [
+            {
+                "id": "m3u56l53",
+                "permission": "dashboard",
+                "icon": "streamline:dashboard-circle",
+                "text": "Dashboard",
+                "href": "user.dashboard",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "id": "m3u57m54",
+                "permission": "workspaces",
+                "icon": "bx:grid-alt",
+                "text": "Workspaces",
+                "href": "user.workspaces.index",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "id": "m3u58n55",
+                "permission": "teams",
+                "icon": "bx:user",
+                "text": "Team Members",
+                "href": "user.teams.index",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "id": "m3u59o56",
+                "permission": "ai-tools",
+                "icon": "mdi:robot",
+                "text": "AI Tools",
+                "href": "user.ai-tools.index",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "id": "m3u60p57",
+                "permission": "ai-generated-history",
+                "icon": "fe:codepen",
+                "text": "AI Generated History",
+                "href": "user.ai-generated-history.index",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "id": "m3u61q58",
+                "permission": "assets",
+                "icon": "bx:image",
+                "text": "Assets",
+                "href": "user.assets.index",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "id": "m3u62r59",
+                "permission": "subscription",
+                "icon": "fe:credit-card",
+                "text": "Subscriptions",
+                "href": "user.subscription.index",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "id": "m3u63s60",
+                "permission": "ai-training",
+                "icon": "bx:code-block",
+                "text": "Ai Training",
+                "href": "user.ai-training.index",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "id": "m3u63s60",
+                "permission": "credits",
+                "icon": "fe:credit-card",
+                "text": "Credits",
+                "href": "user.credits.index",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "id": "m3u63s64",
+                "icon": "bx:phone-call",
+                "text": "Supports",
+                "href": "user.supports.index",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "id": "m3u64t61",
+                "permission": "activity-logs",
+                "icon": "mdi:history",
+                "text": "Activity Logs",
+                "href": "user.activity-logs.index",
+                "target": "_self",
+                "deletable": false
+            }
+        ]
+    },
+    {
+        "id": "m33ox2x2",
+        "heading": "Number Checker",
+        "menu_type": "user",
+        "order": 2,
+        "deletable": false,
+        "module": "number-checker",
+        "links": [
+            {
+                "text": "Number Scanner",
+                "icon": "mdi:queue-first-in-last-out",
+                "href": "\/user\/number-checker\/scanner",
+                "target": "_self",
+                "deletable": false
+            }
+        ]
+    },
+    {
+        "id": "m3n4o5x2",
+        "heading": "Question Answer (NLP)",
+        "menu_type": "user",
+        "deletable": false,
+        "module": "q-a-reply",
+        "order": 2,
+        "links": [
+            {
+                "text": "QA Reply",
+                "icon": "bx:detail",
+                "href": "\/user\/qareply\/qareplies",
+                "target": "_self",
+                "deletable": false
+            }
+        ]
+    },
+    {
+        "id": "m3n2x5x2",
+        "heading": "Web Scraping",
+        "menu_type": "user",
+        "order": 2,
+        "deletable": false,
+        "module": "web-scraping",
+        "links": [
+            {
+                "text": "Web Scraping",
+                "icon": "bx:globe",
+                "href": "\/user\/web-scraping\/scrape",
+                "target": "_self",
+                "deletable": false
+            }
+        ]
+    },
+    {
+        "menu_type": "user",
+        "id": "m3n2ss235",
+        "heading": "Whatsapp Module",
+        "order": 2,
+        "deletable": false,
+        "module": "whatsapp",
+        "links": [
+            {
+                "id": "m2n3g11cfa",
+                "icon": "streamline:dashboard-circle",
+                "text": "Overview",
+                "href": "\/user\/whatsapp\/overview",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "id": "m3n2g11cfa",
+                "text": "Chats",
+                "icon": "bx:conversation",
+                "href": "\/user\/whatsapp\/platforms",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "id": "m6n2g11cfa",
+                "text": "Campaigns",
+                "icon": "humbleicons:chats",
+                "href": "\/user\/whatsapp\/campaigns",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "id": "m7n2g11cfa",
+                "text": "Templates",
+                "icon": "bx:layer",
+                "href": "\/user\/whatsapp\/templates",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "id": "m8n2g11cfa",
+                "text": "Quick Replies",
+                "icon": "bx:message-dots",
+                "href": "\/user\/whatsapp\/quick-replies",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "id": "m9n2g11cfa",
+                "text": "Auto Replies",
+                "icon": "bx:message-square-detail",
+                "href": "\/user\/whatsapp\/auto-replies",
+                "exact": true,
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "id": "m11n2g11cfa",
+                "text": "Customers",
+                "icon": "bx:user-circle",
+                "href": "\/user\/whatsapp\/customers",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "id": "m12n2g11cfa",
+                "text": "Groups",
+                "icon": "bx:group",
+                "href": "\/user\/whatsapp\/groups",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "id": "m5n2g11cfa",
+                "text": "My Apps",
+                "icon": "bx:bxl-codepen",
+                "href": "\/user\/whatsapp\/apps",
+                "target": "_self",
+                "deletable": false
+            }
+        ]
+    },
+    {
+        "menu_type": "user",
+        "id": "m3n2ssx2",
+        "heading": "Whatsapp Web Module",
+        "order": 3,
+        "deletable": false,
+        "module": "whatsapp-web",
+        "links": [
+            {
+                "id": "m2n3g11cfa",
+                "icon": "streamline:dashboard-circle",
+                "text": "Overview",
+                "href": "\/user\/whatsapp-web\/overview",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "text": "Chats",
+                "id": "m12n2gz1fk",
+                "icon": "bx:chat",
+                "href": "\/user\/whatsapp-web\/platforms",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "text": "Warm Up",
+                "id": "m12n2gbxfk",
+                "icon": "bx:directions",
+                "href": "\/user\/whatsapp-web\/warmer",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "text": "Campaign",
+                "id": "m12n2ga9fk",
+                "icon": "bx:navigation",
+                "href": "\/user\/whatsapp-web\/campaigns",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "text": "Templates",
+                "id": "m12n2gm7fk",
+                "icon": "bx:layer",
+                "href": "\/user\/whatsapp-web\/templates",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "text": "Send Message",
+                "id": "m12nx2cfk",
+                "icon": "bx:send",
+                "href": "\/user\/whatsapp-web\/send-message",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "text": "Send Bulk Message",
+                "id": "m12n2gx2fk",
+                "icon": "bx:rocket",
+                "href": "\/user\/whatsapp-web\/send-bulk-message",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "text": "Quick Replies",
+                "id": "m12n2gx2fk",
+                "icon": "bx:message-dots",
+                "href": "\/user\/whatsapp-web\/quick-replies",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "text": "Auto Replies",
+                "id": "m12n2ax2fk",
+                "icon": "bx:message-square-detail",
+                "href": "\/user\/whatsapp-web\/auto-replies",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "text": "Audience",
+                "id": "m12m4cfk",
+                "icon": "bx:user-circle",
+                "href": "\/user\/whatsapp-web\/customers",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "text": "Groups",
+                "id": "m12c4cfk",
+                "icon": "bx:group",
+                "href": "\/user\/whatsapp-web\/groups",
+                "target": "_self",
+                "deletable": false
+            },
+            {
+                "text": "My Apps",
+                "id": "m12nb3cfk",
+                "icon": "bx:bxl-codepen",
+                "href": "\/user\/whatsapp-web\/apps",
+                "target": "_self",
+                "deletable": false
+            }
+        ]
+    }
+]

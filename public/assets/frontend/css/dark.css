@@ -1,0 +1,7 @@
+html[data-bs-theme=dark] body, html[data-bs-theme=dark] .ctn-preloader {
+  background: #111111;
+  color: #fff;
+}
+html[data-bs-theme=dark] body {
+  color: rgba(255, 255, 255, 0.7);
+}/*# sourceMappingURL=dark.css.map */

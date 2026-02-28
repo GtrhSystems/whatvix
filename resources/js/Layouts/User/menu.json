@@ -1,0 +1,109 @@
+[
+  {
+    "id": "m3n4o52ks",
+    "heading": "Dashboard",
+    "order": 1,
+    "deletable": false,
+    "module": "user",
+    "links": [
+      {
+        "id": "m3u56l53",
+        "permission": "dashboard",
+        "icon": "streamline:dashboard-circle",
+        "text": "Dashboard",
+        "href": "user.dashboard",
+        "target": "_self",
+        "deletable": false
+      },
+      {
+        "id": "m3u57m54",
+        "permission": "workspaces",
+        "icon": "bx:grid-alt",
+        "text": "Workspaces",
+        "href": "user.workspaces.index",
+        "target": "_self",
+        "deletable": false
+      },
+      {
+        "id": "m3u58n55",
+        "permission": "teams",
+        "icon": "bx:user",
+        "text": "Team Members",
+        "href": "user.teams.index",
+        "target": "_self",
+        "deletable": false
+      },
+      {
+        "id": "m3u59o56",
+        "permission": "ai-tools",
+        "icon": "mdi:robot",
+        "text": "AI Tools",
+        "href": "user.ai-tools.index",
+        "target": "_self",
+        "deletable": false
+      },
+      {
+        "id": "m3u60p57",
+        "permission": "ai-generated-history",
+        "icon": "fe:codepen",
+        "text": "AI Generated History",
+        "href": "user.ai-generated-history.index",
+        "target": "_self",
+        "deletable": false
+      },
+      {
+        "id": "m3u61q58",
+        "permission": "assets",
+        "icon": "bx:image",
+        "text": "Assets",
+        "href": "user.assets.index",
+        "target": "_self",
+        "deletable": false
+      },
+      {
+        "id": "m3u62r59",
+        "permission": "subscription",
+        "icon": "fe:credit-card",
+        "text": "Subscriptions",
+        "href": "user.subscription.index",
+        "target": "_self",
+        "deletable": false
+      },
+      {
+        "id": "m3u63s60",
+        "permission": "ai-training",
+        "icon": "bx:code-block",
+        "text": "Ai Training",
+        "href": "user.ai-training.index",
+        "target": "_self",
+        "deletable": false
+      },
+      {
+        "id": "m3u63s60",
+        "permission": "credits",
+        "icon": "fe:credit-card",
+        "text": "Credits",
+        "href": "user.credits.index",
+        "target": "_self",
+        "deletable": false
+      },
+      {
+        "id": "m3u63s64",
+        "icon": "bx:phone-call",
+        "text": "Supports",
+        "href": "user.supports.index",
+        "target": "_self",
+        "deletable": false
+      },
+      {
+        "id": "m3u64t61",
+        "permission": "activity-logs",
+        "icon": "mdi:history",
+        "text": "Activity Logs",
+        "href": "user.activity-logs.index",
+        "target": "_self",
+        "deletable": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "name": "OpenAi",
+  "description": "",
+  "keywords": [],
+  "priority": 0,
+  "providers": [
+    "Modules\\OpenAi\\App\\Providers\\OpenAiServiceProvider"
+  ],
+  "tuning_provider": "Modules\\OpenAi\\App\\Services\\OpenAiService",
+  "module_type": "ai_model",
+  "accessible": false,
+  "version": "1.0",
+  "files": []
+}

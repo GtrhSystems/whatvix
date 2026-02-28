@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap');
+
+.json-highlighter {
+    font-family: 'Fira Code';
+    background: #1e1e1e;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 14px;
+    /* Adjust size for better readability */
+    line-height: 1.5;
+    /* Improve line spacing */
+}
+
+.json-key {
+    color: #9cdcfe;
+    /* Light Blue */
+}
+
+.json-string {
+    color: #ce9178;
+    /* Orange */
+}
+
+.json-number {
+    color: #b5cea8;
+    /* Light Green */
+}
+
+.json-boolean {
+    color: #569cd6;
+    /* Blue */
+}
+
+.json-null {
+    color: #dcdcaa;
+    /* Yellow */
+}

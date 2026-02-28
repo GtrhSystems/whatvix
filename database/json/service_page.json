@@ -1,0 +1,64 @@
+{
+  "list": {
+    "title": "Our Services",
+    "subtitle": "With built-in features and customizable extensions, editors offer comprehensive solutions for every user’s preferences."
+  },
+  "block_feature_twenty_five": {
+    "top_title": "Why Us",
+    "title": "WhatsML is perfect for you.",
+    "subtitle": "Lorem ipsum dolor sit amet. Hic unde iste ut sunt beata expedita mollitia a perspiciatis nemo.",
+    "image": "/assets/frontend/images/media/img_56.jpg",
+    "counter": {
+      "prefix": "",
+      "number": 10,
+      "suffix": "+",
+      "subtitle": "Years Experience with proud."
+    },
+    "features": [
+      {
+        "icon": "/assets/frontend/images/icon/icon_77.svg",
+        "title": "24/7 Expert Dedicated Support"
+      },
+      {
+        "icon": "/assets/frontend/images/icon/icon_78.svg",
+        "title": "30-Day Money-Back Guarantee"
+      },
+      {
+        "icon": "/assets/frontend/images/icon/icon_79.svg",
+        "title": "AI-Powered Advance Technology"
+      }
+    ],
+    "counters": [
+      {
+        "prefix": "",
+        "number": 1.3,
+        "suffix": "mil+",
+        "subtitle": "Happy Clients"
+      },
+      {
+        "prefix": "",
+        "number": 120000,
+        "suffix": "+",
+        "subtitle": "Completed Project"
+      },
+      {
+        "prefix": "",
+        "number": 800,
+        "suffix": "%",
+        "subtitle": "Cheap in the Market"
+      }
+    ]
+  },
+  "counter_section_one": {
+    "items": [
+      { "prefix": null, "number": "1.3", "suffix": "mil+", "subtitle": "Happy Clients" },
+      { "prefix": null, "number": "120000", "suffix": "+", "subtitle": "Completed Project" },
+      { "prefix": null, "number": "800", "suffix": "%", "subtitle": "Cheap in the Market" }
+    ]
+  },
+  "card": {
+    "title": "Any Questions?",
+    "button_text": "Let\u2019s Talk",
+    "button_link": "http://WhatsML.test/contact-us"
+  }
+}
