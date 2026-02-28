@@ -39,7 +39,11 @@ class WebhookController extends Controller
         }
 
         $data = $request->all();
-        $platform = Platform::whatsapp()->where('uuid', $uuid)->first();
+        $platform = Platform::whatsapp()->where(function ($q) use ($uuid) {
+             $q->where('uuid', $uuid)
+               ->orWhere('uuid', '+' . $uuid)
+               ->orWhere('uuid', str_replace('+', '', $uuid));
+        })->first();
 
         if (!$platform) {
             return response()->noContent(200);
@@ -205,11 +209,15 @@ class WebhookController extends Controller
         $token = $request->input('hub_verify_token');
         $challenge = $request->input('hub_challenge');
 
-        if ($uuid != $token) {
+        if (str_replace('+', '', $uuid) !== str_replace('+', '', $token)) {
             return response([], 403);
         }
 
-        $platform = Platform::where('uuid', $token)->first();
+        $platform = Platform::where(function ($q) use ($token) {
+            $q->where('uuid', $token)
+              ->orWhere('uuid', '+' . $token)
+              ->orWhere('uuid', str_replace('+', '', $token));
+        })->first();
 
         if ($mode !== 'subscribe' || !$platform) {
             return response([], 403);

@@ -65,7 +65,7 @@ class Platform extends Model
             get: fn() =>
             match ($this->module) {
                 
-                'whatsapp' => secure_url("api/whatsapp/device/{$this->uuid}/webhook"),
+                'whatsapp' => secure_url("api/whatsapp/device/" . str_replace('+', '', $this->uuid) . "/webhook"),
                 
                 default => null,
             }
