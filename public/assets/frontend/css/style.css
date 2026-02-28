@@ -3144,7 +3144,7 @@ p {
 }
 
 .theme-main-menu.menu-style-three.fixed .info-row {
-  display: none;
+  /* display: none; */
 }
 
 .theme-main-menu.menu-style-three.fixed .inner-content {

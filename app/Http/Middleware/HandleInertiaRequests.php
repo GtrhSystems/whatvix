@@ -89,13 +89,11 @@ class HandleInertiaRequests extends Middleware
        
 
         $locale = current_locale();
-        $menu = Cache::remember(
-            'menu_' . $locale,
-            env('CACHE_LIFETIME', 1800),
-            function () use ($locale) {
-                return Menu::where('lang', $locale)->where('status', 1)->oldest()->get();
-            }
-        );
+        $menus = Menu::where('lang', $locale)->where('status', 1)->oldest()->get();
+        if ($menus->isEmpty()) {
+            $menus = Menu::where('lang', 'en')->where('status', 1)->oldest()->get();
+        }
+        $menu = $menus;
 
         $broadcastConfig = match (config('broadcasting.default', 'pusher')) {
             'pusher' => [
