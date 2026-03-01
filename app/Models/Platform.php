@@ -59,6 +59,28 @@ class Platform extends Model
         return 'uuid';
     }
 
+    /**
+     * Retrieve the model for a bound value.
+     *
+     * @param  mixed  $value
+     * @param  string|null  $field
+     * @return \Illuminate\Database\Eloquent\Model|null
+     */
+    public function resolveRouteBinding($value, $field = null)
+    {
+        $field = $field ?? $this->getRouteKeyName();
+
+        if ($field === 'uuid') {
+            return $this->where(function ($query) use ($value) {
+                $query->where('uuid', $value)
+                      ->orWhere('uuid', '+' . $value)
+                      ->orWhere('uuid', str_replace('+', '', $value));
+            })->first();
+        }
+
+        return parent::resolveRouteBinding($value, $field);
+    }
+
     public function webhookUrl(): Attribute
     {
         return Attribute::make(

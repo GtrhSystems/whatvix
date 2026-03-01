@@ -1,8 +1,8 @@
 {
   "hero_banner": {
     "key": "hero_banner",
-    "title": "WhatsML, Your AI Chatbot for your daily life",
-    "subtitle": "WhatsML chatbot delivers instant AI responses for 24/7 customer support & satisfaction.",
+    "title": "Whatvix, Your AI Chatbot for your daily life",
+    "subtitle": "Whatvix chatbot delivers instant AI responses for 24/7 customer support & satisfaction.",
     "btn_text": "Try It Now",
     "feature_item_one": "No Credit Card required",
     "feature_item_two": "14 Days Free Trial"
@@ -49,7 +49,7 @@
   "faq_section_one": { "key": "faq_section_one", "title": "Questions & Answers" },
   "fancy_banner_three": {
     "key": "fancy_banner_three",
-    "title": "Get your free { WhatsML. } Free Trial now!",
+    "title": "Get your free { Whatvix. } Free Trial now!",
     "subtitle": "Try it risk free \u2014 we don\u2019t charge cancellation fees",
     "button_text": "Let\u2019s Get Started",
     "button_link": "/contact-us"

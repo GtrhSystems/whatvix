@@ -15,7 +15,7 @@ class DashboardController extends Controller
 {
     public function __invoke()
     {
-        PageHeader::set('Whatsapp overviews');
+        PageHeader::set('Whatvix overviews');
         return Inertia::render('Index');
     }
 }
